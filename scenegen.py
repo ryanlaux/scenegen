@@ -1,8 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 import requests
 import argparse
-import configparser
+import ConfigParser
 import sys
 
 light_color_types = ["xy_color", "rgb_color", "color_temp", "color_name"]
